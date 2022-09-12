@@ -56,6 +56,7 @@ main .background{
   text-align: center;
 }
 
+/* prima immagine a sinistra titolo e scritta a destra */
 .first{
   display: flex;
   justify-content: space-between;
@@ -73,6 +74,7 @@ main .background{
   height: 200px;
 }
 
+/* seconda immagine a destra, titolo e scritta a sinistra */
 .second{
   display: flex;
   justify-content: space-between;
@@ -90,6 +92,7 @@ main .background{
   height: 200px;
 }
 
+/* terza immagine a sinistra, titolo e scritta a destra */
 .third{
   display: flex;
   justify-content: space-between;
@@ -105,4 +108,16 @@ main .background{
 .third .wr3-rigt{
   width: 250px;
   height: 200px;
+}
+
+/* sezione prima del footer */
+section.finale{
+  text-align: center;
+}
+
+.finale .img-big{
+  width: 500px;
+  height: 300px;
+  background-color: tomato;
+  display: inline-block;
 }
