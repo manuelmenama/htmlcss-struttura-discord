@@ -10,7 +10,7 @@
 }
 
 .container{
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   border: 1px dashed gray;
 }
@@ -24,8 +24,6 @@ header{
 }
 
 .top{
-  width: 70%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +34,7 @@ header .logo{
   height: 25px;
   width: 90px;
   background-color: white;
+  color: black;
 }
 
 header ul{
@@ -75,6 +74,7 @@ main .background{
 
 /* seconda immagine a destra, titolo e scritta a sinistra */
 .second{
+  background-color: lightgray;
   display: flex;
   justify-content: space-between;
 }
@@ -111,6 +111,7 @@ main .background{
 
 /* sezione prima del footer */
 section.finale{
+  background-color: lightgray;
   text-align: center;
 }
 
@@ -121,11 +122,15 @@ section.finale{
   display: inline-block;
 }
 
+.finale p{
+  display: inline-block;
+  max-width: 500px;
+}
+
 /* footer  */
 
 footer{
   background-color: #23272a;
-  height: 500px;
   color: white;
 }
 
@@ -144,8 +149,10 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-bottom .mini-logo{
   height: 30px;
   width: 100px;
   background-color: white;
+  color: black;
 }
