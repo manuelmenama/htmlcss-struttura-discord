@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  /* fonts */
-}
-
 .debug{
   background-color: rgba(0, 255, 0, .25);
   border: 1px solid black;
@@ -16,5 +12,25 @@ body{
 .container{
   width: 70%;
   margin: 0 auto;
+  border: 1px dashed black;
 }
 
+header{
+  height: 80px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  height: 25px;
+  width: 90px;
+  background-color: white;
+}
+
+header ul{
+  display: flex;
+  background-color: aqua;
+  list-style: none;
+}
