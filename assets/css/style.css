@@ -13,7 +13,6 @@
   width: 70%;
   margin: 0 auto;
   border: 1px dashed black;
-  text-align: center;
 }
 
 /* header */
@@ -51,4 +50,59 @@ main .background{
   background-color: rgb(112, 112, 255);
   /* eliminare altezza */
   height: 300px;
+}
+
+.background .titolo{
+  text-align: center;
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first .img-left{
+  /* dimensioni da eliminare */
+  width: 250px;
+  height: 200px;
+  background-color: brown;
+}
+
+.first .wr-rigt{
+  width: 250px;
+  height: 200px;
+}
+
+.second{
+  display: flex;
+  justify-content: space-between;
+}
+
+.second .img2-right{
+  /* dimensioni da eliminare */
+  width: 250px;
+  height: 200px;
+  background-color: brown;
+}
+
+.second .wr2-left{
+  width: 250px;
+  height: 200px;
+}
+
+.third{
+  display: flex;
+  justify-content: space-between;
+}
+
+.third .img3-left{
+  /* dimensioni da eliminare */
+  width: 250px;
+  height: 200px;
+  background-color: brown;
+}
+
+.third .wr3-rigt{
+  width: 250px;
+  height: 200px;
 }
