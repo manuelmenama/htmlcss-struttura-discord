@@ -13,15 +13,26 @@
   width: 70%;
   margin: 0 auto;
   border: 1px dashed black;
+  text-align: center;
 }
 
+/* header */
 header{
   height: 80px;
   background-color: blue;
   display: flex;
+  align-items: center;
+}
+
+.top{
+  width: 70%;
+  margin: 0 auto;
+  border: 1px dashed black;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 
 header .logo{
   height: 25px;
@@ -33,4 +44,11 @@ header ul{
   display: flex;
   background-color: aqua;
   list-style: none;
+}
+
+/* sezione con immagine di background */
+main .background{
+  background-color: rgb(112, 112, 255);
+  /* eliminare altezza */
+  height: 300px;
 }
