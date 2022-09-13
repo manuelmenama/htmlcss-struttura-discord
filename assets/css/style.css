@@ -10,6 +10,7 @@
 }
 
 .container{
+  max-width: 1180px;
   width: 60%;
   margin: 0 auto;
   border: 1px dashed gray;
@@ -117,7 +118,9 @@ main .background{
 /* sezione prima del footer */
 section.finale{
   background-color: lightgray;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .finale .img-big{
@@ -128,7 +131,7 @@ section.finale{
 }
 
 .finale p{
-  display: inline-block;
+  display: block;
   max-width: 500px;
 }
 
