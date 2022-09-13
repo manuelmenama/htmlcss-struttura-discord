@@ -46,7 +46,7 @@ header ul{
 header ul a{
   text-decoration: none;
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* sezione con immagine di background */
@@ -58,6 +58,16 @@ main .background{
 
 .background .titolo{
   text-align: center;
+  max-width: 500px;
+}
+
+.background .titolo p{
+  margin-bottom: 20px;
+}
+
+.background .titolo h1{
+  padding: 40px 0 20px 0;
+  font-size: 40px;
 }
 
 /* prima immagine a sinistra titolo e scritta a destra */
