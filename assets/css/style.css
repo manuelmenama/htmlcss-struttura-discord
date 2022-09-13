@@ -39,8 +39,13 @@ header .logo{
 
 header ul{
   display: flex;
-  background-color: aqua;
   list-style: none;
+}
+
+header ul a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }
 
 /* sezione con immagine di background */
